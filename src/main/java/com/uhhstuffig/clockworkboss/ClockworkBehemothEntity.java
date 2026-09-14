@@ -6,10 +6,33 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.Level;
 
-public class ClockworkBehemothEntity extends Monster {
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.util.GeckoLibUtil;
+import software.bernie.geckolib.animation.AnimatableManager;
 
-    protected ClockworkBehemothEntity(EntityType<? extends Monster> entityType, Level level) {
+public class ClockworkBehemothEntity extends Monster implements GeoEntity {
+
+    private final AnimatableInstanceCache geoCache =
+            GeckoLibUtil.createInstanceCache(this);
+
+    protected ClockworkBehemothEntity(
+            EntityType<? extends Monster> entityType,
+            Level level
+    ) {
         super(entityType, level);
+    }
+
+    @Override
+    public void registerControllers(
+            AnimatableManager.ControllerRegistrar controllers
+    ) {
+        // Animations will be added here once Shadow finishes them.
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return this.geoCache;
     }
 
     public static AttributeSupplier.Builder createAttributes() {
