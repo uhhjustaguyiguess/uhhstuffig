@@ -1,1 +1,19 @@
-placeholder
+package
+com.uhhstuffig.clockworkboss.client
+
+import
+com.uhhstuffig.clockeorkboss.ClockworkBehemothEntity;
+import
+net.minecraft.resources.ResourceLocation;
+import
+software.bernie.geckolib.model.GeoModel;
+
+public class ClockworkBehemothModel
+extends
+GeoModel<ClockworkBehemothEntity> {
+
+   private static final
+ResourceLocation MODEL = 
+            new
+ResourceLocation("clockworkboss","textures/entity/clockwork_behemoth.png");
+
