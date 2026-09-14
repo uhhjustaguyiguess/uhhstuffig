@@ -1,8 +1,8 @@
 package
-com.uhhstuffig.clockworkboss.client
+com.uhhstuffig.clockworkboss.client;
 
 import
-com.uhhstuffig.clockeorkboss.ClockworkBehemothEntity;
+com.uhhstuffig.clockworkboss.ClockworkBehemothEntity;
 import
 net.minecraft.resources.ResourceLocation;
 import
