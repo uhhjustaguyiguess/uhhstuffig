@@ -19,7 +19,7 @@ ResourceLocation("clockworkboss","geo/clockwork_behemoth.geo.json");
 
     private static final
 ResourceLocation TEXTURE =
-            new ResourceLocation("clockworkboss", "textures/entity/clockwork_behemoth.png");
+            new ResourceLocation("clockworkboss","textures/entity/clockwork_behemoth_texture.png");
 
     private static final ResourceLocation ANIMATION =
             new ResourceLocation("clockworkboss", "animations/clockwork_behemoth.animation.json");
