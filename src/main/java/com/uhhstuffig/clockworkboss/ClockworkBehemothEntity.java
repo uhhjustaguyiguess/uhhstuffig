@@ -7,9 +7,9 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.Level;
 
 import software.bernie.geckolib.animatable.GeoEntity;
-import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.util.GeckoLibUtil;
-import software.bernie.geckolib.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.AnimatableManager;
 
 public class ClockworkBehemothEntity extends Monster implements GeoEntity {
 
