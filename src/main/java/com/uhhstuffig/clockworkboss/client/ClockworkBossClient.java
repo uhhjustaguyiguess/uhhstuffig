@@ -15,9 +15,9 @@ public class ClockworkBossClient {
 
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
-       event.registerEntityRenderer(
+        event.registerEntityRenderer(
                 ModEntities.CLOCKWORK_BEHEMOTH.get(),
                 ClockworkBehemothRenderer::new
-      //  );
+        );
     }
 } 

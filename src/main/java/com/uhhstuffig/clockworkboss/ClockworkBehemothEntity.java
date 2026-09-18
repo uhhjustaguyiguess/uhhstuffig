@@ -27,13 +27,14 @@ public class ClockworkBehemothEntity extends Monster implements GeoEntity {
     public void registerControllers(
             AnimatableManager.ControllerRegistrar controllers
     ) {
-        // Animations will be added here once Shadow finishes them.
+        // Animations later.
     }
 
     @Override
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return this.geoCache;
     }
+
 
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createMonsterAttributes()
@@ -42,4 +43,4 @@ public class ClockworkBehemothEntity extends Monster implements GeoEntity {
                 .add(Attributes.ATTACK_DAMAGE, 10.0D)
                 .add(Attributes.KNOCKBACK_RESISTANCE, 1.0D);
     }
-}
+} 
