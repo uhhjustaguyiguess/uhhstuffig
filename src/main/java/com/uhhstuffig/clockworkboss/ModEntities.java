@@ -17,6 +17,6 @@ public class ModEntities {
                             ClockworkBehemothEntity::new,
                             MobCategory.MONSTER
                     )
-                    .sized(9.0F, 12.0F)
+                    .sized(7.0F, 12.0F)
                     .build("clockwork_behemoth"));
 }
